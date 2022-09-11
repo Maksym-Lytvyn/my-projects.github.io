@@ -1,0 +1,56 @@
+$myColor: red;
+$myFont: 'Segoe UI', 'Roboto', 'Oxygen',
+'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+sans-serif;
+$myBackgroundColor1: rgb(2, 0, 94);
+$myFontSize: 1.5rem;
+$marginL: 10%;
+$marginR: 10%;
+$marginT: 10%;
+$marginB: 10%;
+$borderL: 3px groove blue;
+$borderR: 3px groove blue;
+$borderT: 3px groove blue;
+$borderB: 3px groove blue;
+$float1: right;
+$float2: left;
+
+
+p {
+  color: $myColor;
+  text-align: center;
+  margin-top: $marginT;
+  margin-bottom: $marginB;
+  margin-left: $marginL;
+  margin-right: $marginR;
+  font-size: $myFontSize;
+  border-bottom: $borderB;
+  border-top: $borderT;
+  border-left: $borderL;
+  border-right: $borderR;
+}
+
+button {
+    color: $myColor;
+    background-color: $myBackgroundColor1;
+}
+
+.btn1 {
+    position: relative;
+    margin-left: $marginL;
+    margin-right: $marginR;
+}
+.btn2 {
+    position: relative;
+    margin-left: $marginL;
+    margin-right: $marginR;
+}
+.btn3 {
+    position: relative;
+    margin-left: $marginL;
+    margin-right: $marginR;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+}
